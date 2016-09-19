@@ -1,0 +1,140 @@
+.container1 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.conteudo {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 15px;
+}
+.menu-superior {
+    background-color:  black;
+    top: 0;
+    border-width: 0 0 1px;
+    border-radius: 0;
+    padding-right: 0;
+    padding-left: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.banner-imagem {
+    background-image: url("../images/informatica.jpg");
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-size: cover;
+    background-clip: padding-box;
+}
+
+.texto-direita {
+    text-align: right;
+}
+
+.texto-esquerda {
+    text-align: right;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+.fonte-menu {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.1em;
+    color: black;
+}
+
+.item-menu {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 70%;
+}
+
+.texto-banner {
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+    color: white;
+    text-shadow: #000 2px 2px 2px;
+    text-align: center
+}
+
+.superior {
+    position: relative;
+    float: right;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.tamanho-menor {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 33%;
+}
+
+.tamanho-pequeno {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 25%;
+}
+
+.tamanho-medio {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.tamanho-grande {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 75%;
+    float: left;
+}
+
+.miniaturas {
+    display: block;
+    padding: 0px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.mini {
+    background-image: url("../images/350.png");
+    width: : 320px;
+    height: 150px;
+}
+
+.detalhes {
+    padding: 4px;
+}
+
+.det-conteudo {
+    text-align: justify;
+    margin-right: 20px;
+    margin-left: 20px;
+}
