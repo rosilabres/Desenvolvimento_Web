@@ -35,7 +35,6 @@ a:hover {
     margin-right: -15px;
     margin-left: -15px;
     padding-top: 15px;
-    width: 100%;
 }
 
 .texto-branco {
@@ -44,7 +43,7 @@ a:hover {
 
 .conteudo-banner {
     margin-right: -15px;
-    margin-left: -30px;
+    margin-left: -15px;
     padding-top: 15px;
     width: 100%;
 }
@@ -116,6 +115,16 @@ a:hover {
     list-style-type: none;
 }
 
+.tamanho-pequeno {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    margin-left: 50px;
+    width: 200px;
+}
+
 .tamanho-menor {
     position: relative;
     min-height: 1px;
@@ -125,25 +134,7 @@ a:hover {
     width: 30%;
 }
 
-.tamanho-pequeno {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 20%;
-}
-
 .tamanho-medio {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    width: 100%;
-    height: auto;
-}
-
-.tamanho-grande {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -153,6 +144,17 @@ a:hover {
     float: right;
     margin-right: 80px
 }
+.tamanho-grande {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 100%;
+    float: right;
+}
+
+
 
 .miniaturas {
     display: block;
@@ -178,4 +180,8 @@ a:hover {
     text-align: justify;
     margin-right: 20px;
     margin-left: 20px;
+}
+
+.fundo-preto {
+  background-color: black;
 }
