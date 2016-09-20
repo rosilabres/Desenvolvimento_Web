@@ -1,4 +1,30 @@
-.container1 {
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    padding-top: 70px;
+    margin: 0px;
+    display: block;
+}
+
+head {
+  display: none;
+}
+
+
+a {
+  color: #69aceb;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #0b5aa4;
+}
+
+.container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -9,6 +35,18 @@
     margin-right: -15px;
     margin-left: -15px;
     padding-top: 15px;
+    width: 100%;
+}
+
+.texto-branco {
+  color: white;
+}
+
+.conteudo-banner {
+    margin-right: -15px;
+    margin-left: -30px;
+    padding-top: 15px;
+    width: 100%;
 }
 .menu-superior {
     background-color:  black;
@@ -24,10 +62,10 @@
 }
 .banner-imagem {
     background-image: url("../images/informatica.jpg");
+    width: 100%;
     padding-top: 3%;
     padding-bottom: 3%;
     background-size: cover;
-    background-clip: padding-box;
 }
 
 .texto-direita {
@@ -84,7 +122,7 @@
     padding-right: 15px;
     padding-left: 15px;
     float: left;
-    width: 33%;
+    width: 30%;
 }
 
 .tamanho-pequeno {
@@ -93,7 +131,7 @@
     padding-right: 15px;
     padding-left: 15px;
     float: left;
-    width: 25%;
+    width: 20%;
 }
 
 .tamanho-medio {
@@ -102,6 +140,7 @@
     padding-right: 15px;
     padding-left: 15px;
     width: 100%;
+    height: auto;
 }
 
 .tamanho-grande {
@@ -109,8 +148,10 @@
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    width: 75%;
-    float: left;
+    border-right: 15px;
+    width: 70%;
+    float: right;
+    margin-right: 80px
 }
 
 .miniaturas {
