@@ -13,7 +13,6 @@ head {
   display: none;
 }
 
-
 a {
   color: #69aceb;
   text-decoration: none;
@@ -35,6 +34,14 @@ a:hover {
     margin-right: -15px;
     margin-left: -15px;
     padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.conteudo2 {
+  margin-right: 5%;
+  margin-left: 5%;
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 
 .texto-branco {
@@ -45,7 +52,7 @@ a:hover {
     margin-right: -15px;
     margin-left: -15px;
     padding-top: 15px;
-    width: 100%;
+
 }
 .menu-superior {
     background-color:  black;
@@ -144,6 +151,7 @@ a:hover {
     float: right;
     margin-right: 80px
 }
+
 .tamanho-grande {
     position: relative;
     min-height: 1px;
@@ -154,7 +162,15 @@ a:hover {
     float: right;
 }
 
-
+.tamanho-grande2 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 2%;
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 100%;
+    float: right;
+}
 
 .miniaturas {
     display: block;
@@ -166,10 +182,8 @@ a:hover {
     border-radius: 4px;
 }
 
-.mini {
-    background-image: url("../images/350.png");
-    width: : 320px;
-    height: 150px;
+.miniaturas img {
+  width: 100%;
 }
 
 .detalhes {
