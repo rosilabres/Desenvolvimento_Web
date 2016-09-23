@@ -202,12 +202,14 @@ footer {
 .detalhes {
       padding: 4px;
       border-top: 1px groove #ddd;
+      height: 300px;
+      overflow: hidden;
   }
 
 .detalhes-conteudo {
-      text-align: justify;
-      margin-right: 20px;
-      margin-left: 20px;
+      text-align: left;
+      margin-right: 10px;
+      margin-left: 10px;
   }
 
 .fundo-rodape {
