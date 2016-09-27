@@ -71,9 +71,9 @@ footer {
 }
 
 .banner img {
+    border: 1px groove blue;
     width: 100%;
     border-radius: 6px;
-    border: 1px groove;
     margin-bottom: 20px;
   }
 
@@ -159,8 +159,6 @@ footer {
       display: block;
       padding: 0px;
       margin-bottom: 20px;
-      background-color: #fff;
-      border: 1px solid #ddd;
       border-radius: 4px;
   }
 
@@ -171,8 +169,11 @@ footer {
 .detalhes {
       padding: 4px;
       border-top: 1px groove;
-      height: 260px;
+      height: 240px;
       overflow: hidden;
+      border: 1px groove blue;
+      border-radius: 4px;
+      margin-bottom: 50px;
   }
 
 .detalhes-conteudo {
