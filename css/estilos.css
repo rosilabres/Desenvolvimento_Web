@@ -2,18 +2,7 @@ body {
     margin: 0;
     font-family: 'Slabo 27px', serif;
     font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
     padding-top: 70px;
-    margin: 0px;
-    display: block;
-    padding-top: 70px;
-}
-
-html {
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
 }
 
 * { /*  padding e border não são adicionados na largura - não sou boa em matematica para calcular tanta div junta*/
@@ -31,6 +20,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  color: #1697fb;
 }
 
 footer {
@@ -52,13 +42,10 @@ footer {
   margin-top: 15px;
 }
 
-.conteudo:before, .conteudo:after {
+.conteudo:after { /*Mantém o rodapé lá em baixo.*/
   display: table;
   content: " ";
-}
-
-.conteudo:after{
- clear: both;
+  clear: both;
 }
 
 .margem {
@@ -67,42 +54,27 @@ footer {
 }
 
 .menu-superior {
+    position: fixed;
     background-color:  black;
     top: 0;
-    border-width: 0 0 1px;
-    border-radius: 0;
-    padding-right: 0;
-    padding-left: 0;
-    position: fixed;
     right: 0;
     left: 0;
     z-index: 1030;
-    margin-bottom: 15px;
     padding-bottom: 15px;
 }
 
 .fonte-superior {
-    position: relative;
     float: right;
     padding: 6px 12px;
-    margin-left: -1px;
-    line-height: 1.42857143;
     text-decoration: none;
-    list-style-type: none;
     font-size: 1.2em;
 }
-
-.banner {
-    display: block;
-    padding: 0px;
-    margin-bottom: 20px;
-
-  }
 
 .banner img {
     width: 100%;
     border-radius: 6px;
     border: 1px groove;
+    margin-bottom: 20px;
   }
 
 .texto-direita {
@@ -130,7 +102,6 @@ footer {
 
 .topo-menu {
     font-family: 'Anton', sans-serif;
-    font-size: 1.2em;
     color: black;
     text-align: center;
     font-size: 1.6em;
@@ -173,25 +144,21 @@ footer {
 }
 
 .item-menu {
-      position: relative;
       display: block;
       text-align: center;
       color: black;
-      padding: 10px 15px;
-      margin-bottom: -1px;
       background-color: #fff;
-      border: 1px groove #ddd;
+      border: 1px groove;
+      font-family: 'Anton', sans-serif;
+      font-size: 2vmin;
       margin-left: 15%;
       margin-right: 15%;
-      font-family: 'Anton', sans-serif;
-      font-size: 1.3em;
   }
 
 .miniaturas {
       display: block;
       padding: 0px;
       margin-bottom: 20px;
-      line-height: 1.42857143;
       background-color: #fff;
       border: 1px solid #ddd;
       border-radius: 4px;
@@ -203,7 +170,7 @@ footer {
 
 .detalhes {
       padding: 4px;
-      border-top: 1px groove #ddd;
+      border-top: 1px groove;
       height: 260px;
       overflow: hidden;
   }
